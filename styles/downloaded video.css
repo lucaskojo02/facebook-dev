@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding-top: 120px;
+    background-color: #18191a;
+    font-family: Arial, Helvetica, sans-serif;
+    object-fit: cover;
+    padding-bottom: 52px;
+}
+.your-mind{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 6px;
+    margin-right: 0;
+    border-bottom: 1px solid grey;
+}
+.left-section{
+    width: 40px;
+    display: flex;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+}
+.left-section img{
+    height: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.middle-section{
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.middle-section p{
+    color: white;
+    font-size: 17px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 4px 8px;
+}
+.sorting{
+    display: flex;
+    padding: 4px 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+.sorting div{
+    padding: 6px 12px;
+    color: rgb(207, 204, 204);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sorting .all-videos{
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+.sorting select{
+    background-color: #3a3b3c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.sorting .live-search{
+    background-color: #3a3b3c;
+    border: none;
+    border-radius: 4px;
+}
+.downloaded-video-details{
+    display: flex;
+    padding: 8px 4px;
+}
+.manage-videos{
+    display: flex;
+    padding: 8px 4px;
+    border-bottom: 1px solid grey;
+}
+.first-download-section{
+    width: 260px;
+    height: 150px;
+    display: flex;
+    position: relative;
+}
+.first-download-section video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.first-download-your-section{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    position: relative;
+}
+.video-time{
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+    background-color: #3a3b3cb0;
+    color: white;
+    font-size: 16px;
+    padding: 2px 8px;
+}
+.first-download-section .video-time:hover{
+    opacity: 0;
+}
+.second-download-section{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.download-info{
+    display: flex;
+}
+.video-name{
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  flex: 1;
+  text-wrap: wrap;  
+}
+.video-options{
+    display: flex;
+    align-items: end;
+    background-color: transparent;
+    border: none;
+    height: 20px;
+    padding: 2px 10px;
+}
+.video-options img{
+    height: 6px;
+    margin-left: 2px;
+    border-radius: 3px;
+}
+.your-video-options{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 2px 10px;
+    color: white;
+    font-size: 16px;
+}
+.your-video-options p{
+    margin: 0;
+}
+.download-description{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0;
+}
+.download-description p{
+    color: rgb(179, 177, 177);
+    line-height: 20px;
+    font-size: 15px;
+    margin: 0;
+}
+.remove-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.remove-video button{
+    color: white;
+    background-color: #3a3b3c;
+    border: none;
+    padding: 10px 10px;
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media (min-width:1000px){
+    body, .footer{
+        width: 600px;
+        border: 2px solid grey;
+        border-radius: 2px;
+        margin-left: 32%;
+    }
+    body{
+        height: 770px;
+    }
+    header, main{
+        background-color: #18191a;
+    }
+    body{
+        background-color: rgb(233, 231, 231);
+    }
+    main{
+        background-color: #18191a;
+        height: 100%;
+    }
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgb(94, 92, 92);
+    justify-content: space-between;
+}
+.footer p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer button{
+    background-color: grey;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.footer div{
+    padding: 10px 8px;
+}
+.footer a{
+    text-decoration: none;
+}

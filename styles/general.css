@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding-top: 190px ;
+    background-color: #18191a;
+    font-family: Arial, Helvetica, sans-serif;
+    object-fit: cover;
+    padding-bottom: 100px;
+}
+section{
+    border-bottom: 2px solid black;
+    background-color: #18191a;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+@media (min-width:1000px){
+    body{
+        width: 600px;
+        margin-left: 32%;
+        background-color: rgb(233, 231, 231);
+        border-radius: 10px;
+    }
+}

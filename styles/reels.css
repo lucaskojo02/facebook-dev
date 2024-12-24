@@ -1,0 +1,164 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #18191a;
+    object-fit: cover;
+    padding-top: 60px;
+    padding-bottom: 54px;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.title{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    padding: 20px 0;
+}
+.title p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 0 2px;
+}
+.title a{
+    text-decoration: none;
+}
+.reel{
+    display: flex;
+    flex: 1;
+}
+.reels{
+    height: fit-content;
+    width: fit-content;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding-bottom: 20px;
+}
+.reel-itself video{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.reel-itself{
+    position: relative;
+}
+.followers{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.follower-profile{
+    display: flex;
+    align-items: center;
+}
+.follower-dp{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 4px;
+}
+.circle{
+    height: 12px;
+    padding: 0 6px;
+}
+.follower-profile p{
+    margin: 0;
+    color: white;
+    font-size: 17px;
+}
+.follower-profile button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+.message p{
+    margin: 0;
+    color: white;
+    font-size: 16px;
+}
+.reactions{
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.reaction-number{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 6px;
+    align-items: center;
+    justify-content: center;
+}
+.reaction-number img{
+    height: 24px;
+}
+.reactions p{
+    margin: 0;
+    color: white;
+    font-size: 17px;
+}
+.reaction-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 6px;
+}
+.reaction-circle img{
+    height: 6px;
+    border-radius: 3px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #3a3b3c;
+    justify-content: space-between;
+}
+.footer p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer button{
+    background-color: grey;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 20px;
+}
+.footer div{
+    padding: 10px 8px;
+}
+.footer a{
+    text-decoration: none;
+}
+@media (min-width:1000px){
+    body, .footer, .title{
+        width: 600px;
+        border: 2px solid grey;
+        border-radius: 2px;
+        margin-left: 32%;
+    }
+    body{
+        background-color: rgb(233, 231, 231); 
+    }
+    .main-content, .title{
+        background-color: #18191a;
+    }
+}

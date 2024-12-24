@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    background-color: #18191a;
+    font-family: Arial, Helvetica, sans-serif;
+    object-fit: cover;
+    padding-bottom: 48px;
+}
+.options{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 6px 8px;
+    border-bottom: 1px solid grey;
+}
+header{
+    padding: 6px 8px;
+}
+.first-section{
+    width: 40px;
+    align-items: end;
+}
+.first-section button{
+    padding: 4px 8px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+.first-section img{
+    height: 24px;
+    padding-top: 10px;
+}
+.second-section{
+    width: 40px;
+    margin-right: 4px;
+}
+.second-section img{
+    height: 40px;
+}
+.third-section{
+    display: flex;
+    flex: 1;
+    align-items: end;
+}
+.third-section p{
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+.fourth-section{
+    width: 40px;
+}
+.fourth-section img{
+    height: 26px;
+    padding-top: 6px;
+}
+.buyer-options{
+    display: flex;
+    flex: 1;
+    border-bottom: 1px solid grey;
+}
+.company-number{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px 4px;
+
+}
+.company-number p{
+    margin: 0;
+    line-height: 30px;
+}
+.company-name{
+    color: rgb(225, 221, 221);
+    font-size: 24px;
+    font-weight: bold;
+}
+.account{
+    color: rgb(183, 179, 179);
+}
+.user-actions{
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+.user-actions button{
+    background-color: #3a3b3c;
+    border: none;
+    margin-right: 4px;
+    padding:  4px 6px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.user-actions img{
+    height: 24px;
+}
+main{
+    padding: 6px 10px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 6px;
+}
+.description p{
+    margin: 0;
+}
+.loan{
+    color: rgb(225, 221, 221);
+    font-size: 18px;
+    padding-bottom: 6px;
+    font-weight: bold;
+}
+.loan-description{
+    color: rgb(225, 222, 222);
+    line-height: 20px;
+}
+.loan-amount{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 6px;
+    border-bottom: 1px solid grey;
+}
+.amount{
+    border: 2px solid black;
+    padding: 4px 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.amount-description{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.amount-info{
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buyer-decision{
+    background-color: #2374e1;
+    border: none;
+    padding: 6px 8px;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.mb-amount{
+    margin: 0;
+    color: rgb(225, 221, 221);
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.loan-request{
+    margin: 0;
+    padding-bottom: 10px;
+    color: rgb(183, 179, 179);
+}
+.buy-option{
+    display: flex;
+    flex: 1;
+    padding: 10px 8px;
+}
+.buy-option p{
+    margin: 0;
+    color: rgb(183, 179, 179);
+    font-weight: bold;
+}
+.chat-with{
+    display: flex;
+    flex: 1;
+    padding: 4px 6px;
+}
+.chat-with-us{
+    border: 1px solid black;
+    padding: 15px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    border-radius: 6px;
+}
+.whatsapp{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.whatsapp img{
+    height: 22px;
+    padding-right: 4px;
+}
+.whatsapp p{
+    margin: 0;
+    color: rgb(225, 221, 221);
+    font-weight: bold;
+    font-size: 17px;
+}
+.chat-with-us-description{
+    color: rgb(183, 179, 179);
+    margin: 0;
+    padding: 6px 30px;
+}
+.chat-with-us button{
+    background-color: rgba(151, 235, 207, 0.789);
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    color: rgb(197, 193, 193);
+    font-size: 18px
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgb(94, 92, 92);
+    justify-content: space-between;
+}
+.footer p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer button{
+    background-color: grey;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.footer div{
+    padding: 10px 8px;
+}
+.footer a{
+    text-decoration: none;
+}
+@media (min-width:1000px){
+    body, .footer{
+        width: 600px;
+        border: 2px solid grey;
+        border-radius: 2px;
+        margin-left: 32%;
+    }
+    header, main{
+        background-color: #18191a;
+    }
+    body{
+        background-color: rgb(233, 231, 231);
+    }
+}

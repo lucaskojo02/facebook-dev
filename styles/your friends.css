@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding-top: 180px;
+    background-color: #18191a;
+    font-family: Arial, Helvetica, sans-serif;
+    object-fit: cover;
+    padding-bottom: 54px;
+}
+.back-to-main{
+    display: flex;
+    align-items: center;
+    padding: 8px 6px;
+    border-bottom: 1px solid grey;
+}
+.back-arrow{
+    display: flex;
+    margin-right: 10px;
+}
+.back-arrow button{
+    padding: 6px 8px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.back-arrow button img{
+    height: 25px;
+}
+.back-to-main p{
+    margin: 0;
+    color: white;
+    font-size: 18px;
+}
+.search-friend{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+}
+.first-section{
+    display: flex;
+    flex: 1;
+}
+.first-section input{
+    flex: 1;
+    padding: 15px 20px;
+    background-color: #3a3b3c;
+    border: none;
+    border-radius: 20px;
+}
+.first-section input::placeholder{
+    font-size: 16px;
+    color: rgb(186, 183, 183);
+}
+.last-section img{
+    height: 26px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    display: flex;
+    padding: 6px 8px;
+    align-items: center;
+}
+.dp{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.dp img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.profile-name{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+.dp-name{
+    margin: 0;
+    font-size: 16px;
+    color: rgb(230, 227, 227);
+}
+.mutual{
+    font-size: 14px;
+    color: rgb(186, 183, 183);
+    padding-top: 3px;
+    margin: 0;
+}
+.options{
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.options img{
+    height: 6px;
+    border-radius: 3px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgb(94, 92, 92);
+    justify-content: space-between;
+}
+.footer p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer button{
+    background-color: grey;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.footer div{
+    padding: 10px 8px;
+}
+.footer a{
+    text-decoration: none;
+}
+@media (min-width:1000px){
+    body, .footer{
+        width: 600px;
+        border: 2px solid grey;
+        border-radius: 2px;
+        margin-left: 32%;
+    }
+    body{
+        background-color: rgb(233, 231, 231);
+    }
+    main{
+        background-color: #18191a;
+        height: 720px;
+    }
+}

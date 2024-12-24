@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    padding-top: 120px;
+    background-color: #18191a;
+    font-family: Arial, Helvetica, sans-serif;
+    object-fit: cover;
+    padding-bottom: 54px;
+}
+.back-menu{
+    display: flex;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+.back-arrow{
+    display: flex;
+    padding: 4px 6px;
+}
+.back-arrow button{
+    padding: 6px 8px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.back-arrow img{
+    height: 24px;
+}
+.group-icon{
+    display: flex;
+}
+.group-dp{
+    height: 50px;
+    width: 50px;
+}
+.group-dp img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.group-name{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 6px;
+}
+.group-name P{
+    line-height: 28px;
+    margin: 0;
+}
+.invite-request{
+    color: white;
+    font-size: 18px;
+}
+.group-name .group-name-description{
+    color: rgb(196, 193, 193);
+}
+.share-group{
+    display: flex;
+    flex: 1;
+    padding: 6px 8px;
+    align-items: center;
+}
+.share-button{
+    width: 40px;
+}
+.share-button button{
+    background-color: #3a3b3c;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+}
+.share-button img{
+    height: 22px;
+}
+.share-group p{
+    margin: 0;
+    color: rgb(196, 193, 193);
+    padding-left: 10px;
+}
+.other-groups{
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    background-color: #18191a;
+    padding: 8px 0;
+}
+.other-groups::-webkit-scrollbar{
+    display: none;
+}
+.other-groups-name{
+    display: flex;
+    padding: 4px 8px;
+}
+.other-group-name{
+    display: flex;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 50px;
+    background-color: #3a3b3c;
+    align-items: center;
+    margin-right: 5px;
+}
+.other-group-names{
+    display: flex;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 50px;
+    background-color: rgba(0, 204, 255, 0.296);
+    align-items: center;
+    margin-right: 5px;
+}
+.suggested{
+    color: blue;
+    margin: 0;
+    font-size: 18px;
+}
+.other-group-name img{
+    height: 15px;
+    padding-right: 4px;
+}
+.each-group-name{
+    margin: 0;
+    font-size: 18px;
+    color: rgb(213, 212, 212);
+    text-wrap: nowrap;
+}
+.suggested-friends-container{
+    display: flex;
+    flex: 1;
+    padding: 8px 0;
+}
+.suggested-friends{
+    display: flex;
+    flex: 1;
+    padding: 8px;
+    flex-direction: column;
+}
+.friends{
+    width: 40px;
+}
+.friend{
+    width: 22px;
+    height: 22px;
+    position: relative;
+}
+.friend img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.friend-dp{
+    position: absolute;
+    top: -11px;
+    right: -10px;
+    width: 22px;
+    height: 22px;
+}
+.suggested-names{
+    padding: 0 8px;
+    display: flex;
+    flex: 1;
+}
+.suggested-names p{
+    margin: 0;
+    color: rgb(213, 212, 212);
+}
+.suggested-option{
+    width: 30px;
+}
+.suggested-option p{
+    margin: 0;
+    font-size: 24px;
+    color: black;
+}
+.search-for-friends{
+    display: flex;
+    flex: 1;
+    padding: 6px 8px;
+}
+.first-section{
+    display: flex;
+    flex: 1;
+}
+.first-section input{
+    flex: 1;
+    border: none;
+    padding: 10px 12px;
+    background-color: #3a3b3c;
+    border-radius: 50px;
+}
+.first-section input::placeholder{
+    font-size: 17px;
+    color: #8c8d8e;
+}
+.search-button{
+    width: 40px;
+    align-items: center;
+    display: flex;
+}
+.search-button img{
+    height: 28px;
+    padding-left: 10px;
+}
+.friends-to-invite{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 6px 10px;
+}
+.friends-profile{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 8px 0;
+}
+.first-section-friends{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+.first-section-friends img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.friends-name{
+    display: flex;
+    flex: 1;
+}
+.friends-name p{
+    margin: 0;
+    color: rgb(213, 212, 212);
+}
+.invite-button button{
+    padding: 6px 8px;
+    border: none;
+    background-color: rgb(67, 150, 233);
+    font-size: 18px;
+    color: white;
+    border-radius: 4px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgb(94, 92, 92);
+    justify-content: space-between;
+}
+.footer p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer button{
+    background-color: grey;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.footer div{
+    padding: 10px 8px;
+}
+.footer a{
+    text-decoration: none;
+}
+@media (min-width:1000px){
+    body, .footer{
+        width: 600px;
+        margin-left: 32%;
+        border: 2px solid grey;
+    }
+    body{
+        background-color: rgb(233, 231, 231);
+    }
+    main{
+        height: 780px;
+        background-color: #18191a;
+    }
+}

@@ -1,0 +1,131 @@
+.middle-section input{
+    padding: 14px;
+    font-size: 18px;
+    border: none;
+    background-color: #3a3b3c;
+    border-radius: 25px;
+    width: 100%;
+    color: white;
+    min-width: 245px;
+}
+.middle-section input::placeholder{
+    color: rgb(224, 222, 222);
+    padding-left: 12px;
+}
+.right-section{
+    display: flex;
+    padding: 4px 6px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    flex-shrink: 0;
+    margin-left: 30px;
+}
+.right-section img{
+    padding-top: 10px;
+    height: 25px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.notification-class{  
+    display: flex;
+    justify-content: space-between;
+}
+.notification-class p{
+    margin: 0;
+    font-size: 17px;
+}
+.middle-section{
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.middle-section p{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.recent{
+    color: white;
+}
+.see-all{
+    color: #2374e1;
+}
+.search-section{
+    display: flex;
+    padding-top: 5px;
+}
+.first-search-section{
+    width: 50px;
+    margin-right: 10px;
+}
+.first-search-section img{
+    width: 100%;
+    border-radius: 50%;
+}
+.middle-search-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    justify-content: center;
+}
+.middle-search-section p{
+    margin: 0;
+    color: white;
+}
+.search-name{
+    font-size: 17px;
+}
+.recent-post{
+    display: flex;
+    align-items: center;
+}
+.recent-post img{
+    height: 8px;
+    border-radius: 4px;
+    padding-right: 4px;
+}
+.recent-post p{
+    font-size: 13px;
+}
+.recent-search-info{
+    display: flex;
+    justify-content: space-between;
+}
+.search-profile-info{
+    display: flex;
+    align-items: center;
+}
+.search-profile-info img{
+    height: 16px;
+    border-radius: 8px;
+    padding-left: 4px;
+}
+.recent-options{
+    display: flex;
+    align-items: end;
+    margin-right: 2px;
+}
+.recent-options img{
+    height: 6px;
+    border-radius: 3px;
+    padding-right: 2px;
+}
+@media (min-width:1000px){
+    body, .footer{
+        width: 600px;
+        border: 2px solid grey;
+        border-radius: 2px;
+        margin-left: 32%;
+    }
+    .search-section{
+        height: 50px;
+    }
+    body{
+        background-color: rgb(233, 231, 231);
+    }
+    main{
+        background-color: #18191a;
+    }
+}

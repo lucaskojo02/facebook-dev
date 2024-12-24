@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding-top: 195px ;
+    background-color: #18191a;
+    font-family: Arial, Helvetica, sans-serif;
+    object-fit: cover;
+    padding-bottom: 54px;
+}
+.friends-main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.suggestions{
+    display: flex;
+    padding: 2px 10px;
+    border-bottom: 0;
+}
+.your-friends{
+    display: flex;
+}
+.your-friends button{
+    padding: 10px 8px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #3a3b3c;
+    border: none;
+    font-size: 17px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+.name-page{
+    display: flex;
+    margin-top: 20px;
+    padding: 0 12px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.name-page p{
+    margin: 0;
+    font-size: 18px;
+}
+.name-page a{
+    text-decoration: none;
+}
+.friendz{
+    color: white;
+}
+.see{
+    color: rgb(47, 114, 238);
+    font-weight: 300;
+}
+.request-sent{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+}
+.request-info{
+    display: flex;
+    padding: 8px;
+}
+.dp-image{
+    width: 110px;
+}
+.dp-image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.request-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+.request-time p{
+    margin: 0;
+}
+.profile-name{
+    font-size: 18px;
+    color: white;
+}
+.time{
+    color: rgb(188, 184, 184);
+}
+.mutuals{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.mutuals img{
+    height: 30px;
+    width: 30px;
+    margin-right: -5px;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+.mutuals p{
+    margin: 0;
+    padding-left: 10px;
+    color: rgb(188, 184, 184);
+}
+.decision{
+    padding: 4px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.decision button{
+    padding: 8px 50px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.confirm{
+    background-color: rgb(31, 98, 225);
+}
+.delete{
+    background-color: #3a3b3c;
+}
+.people{
+    padding: 0 8px;
+    margin-top: 15px;
+    border-bottom: 1px solid black;
+}
+.people p{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgb(94, 92, 92);
+    justify-content: space-between;
+}
+.footer p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer button{
+    background-color: grey;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 20px;
+}
+.footer div{
+    padding: 10px 8px;
+}
+.footer a{
+    text-decoration: none;
+}
+@media (min-width:1000px){
+    body, .footer{
+        width: 600px;
+        margin-left: 32%;
+        border: 2px solid grey;
+    }
+    body{
+        background-color: rgb(233, 231, 231);
+    }
+    main{
+        background-color: #18191a;
+    }
+}

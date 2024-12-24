@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding-top: 120px;
+    background-color: #18191a;
+    font-family: Arial, Helvetica, sans-serif;
+    object-fit: cover;
+    padding-bottom: 54px;
+}
+.create-story{
+    display: flex;
+    flex: 1;
+    padding: 6px 8px;
+}
+.cancel-create{
+    width: 30px;
+    display: flex;
+}
+.cancel-create button{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.cancel-create img{
+    height: 22px;
+}
+.create-title{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.create-title p{
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
+.camera-text{
+    display: flex;
+    flex: 1;
+    padding: 6px 10px;
+    justify-content: space-between;
+}
+.camera-text div{
+    width: 180px;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.camera-text p{
+    margin: 0;
+    color: white;
+    font-size: larger;
+}
+.camera-text img{
+    height: 35px;
+}
+.camera{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(28, 96, 179);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(119, 12, 177);
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+    padding: 6px 8px;
+}
+.item-to-select{
+    height: 190px;
+}
+.item-to-select img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+@media (min-width:1000px){
+    body, .footer{
+        width: 600px;
+        border: 2px solid grey;
+        border-radius: 2px;
+        margin-left: 32%;
+    }
+    header, main{
+        background-color: #18191a;
+    }
+    body{
+        background-color: rgb(233, 231, 231);
+    }
+}
+@media (min-width:650px) {
+    .item-to-select{
+        height: 300px;
+    }   
+    .camera-text div{
+        width: 230px;
+    } 
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgb(94, 92, 92);
+    justify-content: space-between;
+}
+.footer p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer button{
+    background-color: grey;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.footer div{
+    padding: 10px 8px;
+}
+.footer a{
+    text-decoration: none;
+}

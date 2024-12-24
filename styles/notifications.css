@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding-top: 195px ;
+    background-color: #18191a;
+    font-family: Arial, Helvetica, sans-serif;
+    object-fit: cover;
+    padding-bottom: 54px;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 8px;
+}
+.date{
+    margin: 0;
+    color: white;
+}
+.notification-info{
+    display: flex;
+    flex: 1;
+    padding: 10px 2px;
+    background-color: #242526;
+}
+.notification-infos{
+    display: flex;
+    flex: 1;
+    padding: 10px 2px;
+}
+.notification-profile{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-shrink: 0;
+    padding-right: 4px;
+}
+.notification-profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 130px;
+}
+.tooltip{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(22, 105, 206);
+    padding: 4px;
+    width: 13px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+.tooltip img{
+    height: 15px;
+}
+.tooltips{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(231, 46, 154);
+    padding: 4px;
+    width: 13px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+.tooltips img{
+    height: 15px;
+}
+.tooltipz{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(60, 213, 101);
+    padding: 4px;
+    width: 13px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+.tooltipz img{
+    height: 14px;
+}
+.sent-action{
+    display: flex;
+    flex: 1;
+    padding: 4px 0;
+    align-items: start;
+}
+.actions{
+    display: flex;
+}
+.actions button{
+    padding: 10px 27px;
+    margin-right: 9px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+}
+.confirm{
+    background-color: rgb(33, 112, 215);
+}
+.delete{
+    background-color: rgb(98, 94, 94);
+}
+.notification-send-name{
+    font-size: 18px;
+    color: rgb(239, 235, 235);
+}
+.add-new-friend{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+    padding: 4px;
+    border-radius: 20px;
+    margin-right: 3px;
+}
+.add-new-friend img{
+    height: 13px;
+}
+.notification-description{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4px;
+    flex: 1;
+}
+.notification-description p{
+    margin: 0;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.action{
+    color: rgb(200, 196, 196);
+}
+.time{
+    color: rgb(176, 174, 174);
+}
+.circles{
+    width: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.circles img{
+    height: 5px;
+    padding-left: 3px;
+}
+.see-more{
+    display: flex;
+    flex: 1;
+    padding: 4px 8px;
+}
+.see-more div{
+    background-color: rgb(98, 94, 94);
+    width: 100%;
+    border-radius: 4px;
+    display: flex;
+    padding: 8px 0;
+    align-items: center;
+    justify-content: center;
+}
+.see-more p{
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+.see-more a{
+    text-decoration: none;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgb(94, 92, 92);
+    justify-content: space-between;
+}
+.footer p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer button{
+    background-color: #3a3b3c;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 20px;
+}
+.footer div{
+    padding: 10px 8px;
+}
+.footer a{
+    text-decoration: none;
+}
+@media (min-width:1000px){
+    body, .footer{
+        width: 600px;
+        border: 2px solid grey;
+        border-radius: 2px;
+        margin-left: 32%;
+    }
+    body{
+        background-color: rgb(233, 231, 231);
+    }
+    main{
+        background-color: #18191a;
+    }
+}

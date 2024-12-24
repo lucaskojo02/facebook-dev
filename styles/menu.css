@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding-top: 110px ;
+    background-color: #18191a;
+    font-family: Arial, Helvetica, sans-serif;
+    object-fit: cover;
+    padding-bottom: 54px;
+}
+.menu{
+    display: flex;
+    padding: 0 6px;
+}
+.menu-option{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.back-option{
+    width: 40px;
+    margin-right: 10px;
+}
+.back-option button{
+    padding: 8px 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.back-option img{
+    height: 24px;
+}
+.option-name{
+    display: flex;
+    flex: 1;
+}
+.option-name p{
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+.search-option{
+    width: 40px;
+    padding-right: 15px;
+}
+.search-option button{
+    padding: 6px 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+}
+.search-option img{
+    height: 24px;
+}
+.user-options{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 6px;
+    justify-content: center;
+}
+.user-profile{
+    display: flex;
+    flex: 1;
+    padding: 8px 6px;
+    background-color: #3a3b3c;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.user-dp{
+    width: 50px;
+    margin-right: 5px;
+}
+.user-dp img{
+    height: 45px;
+    width: 45px;
+    border-radius: 23px;
+}
+.user-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+.user-name p{
+    margin: 0;
+}
+.profile-name{
+    color: rgb(233, 231, 231);
+}
+.profile-description{
+    color: grey;
+}
+.user-dps{
+    width: 40px;
+}
+.user-dps img{
+    height: 30px;
+    width: 30px;
+}
+.menu-user-options{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 6px;
+    border-bottom: 1px solid grey;
+}
+.menu-user{
+    display: flex;
+    flex: 1;
+    margin-bottom: 8px;
+}
+.menu-user div{
+    background-color: #3a3b3c;
+    border-radius: 5px;
+    padding: 6px;
+    margin-right: 4px;
+    display: flex;
+    flex: 1;
+}
+.option-item{
+    display: flex;
+    flex-direction: column;
+}
+.option-icon{
+    height: 24px;
+    width: 24px;
+    padding-bottom: 6px;
+}
+.option-item p{
+    margin: 0;
+    padding-bottom: 6px;
+    color: rgb(228, 225, 225);
+}
+.setting{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 4px 6px;
+    border-bottom: 1px  solid grey;
+}
+.setting-container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.setting-icon{
+    width: 40px;
+}
+.setting-icon img{
+    height: 28px;
+}
+.setting-name{
+    display: flex;
+    flex: 1;
+}
+.setting-name p{
+    margin: 0;
+    color: rgb(228, 225, 225);
+}
+.setting-collapse{
+  width: 30px;  
+}
+.setting-collapse p{
+    margin: 0;
+    color: rgb(228, 225, 225);
+    font-size: 18px;
+}
+
+
+
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: rgb(94, 92, 92);
+    justify-content: space-between;
+}
+.footer p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer button{
+    background-color: grey;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.footer div{
+    padding: 10px 8px;
+}
+.footer a{
+    text-decoration: none;
+}
+@media (min-width:1000px){
+    body, .footer{
+        width: 600px;
+        margin-left: 32%;
+        border: 2px solid grey;
+    }
+    body{
+        background-color: rgb(233, 231, 231);
+    }
+    main{
+        background-color: #18191a;
+    }
+}
